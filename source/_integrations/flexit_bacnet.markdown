@@ -28,6 +28,34 @@ To configure the integration, you need to obtain the IP address and Device ID fo
 5. Go to **More** > **Installer** > **Communication**  > **BACnet settings**.
 6. Note down the **IP address** and **Device ID**.
 
+## Platforms
+
+This integration supports the following platforms.
+
+### Climate
+
+The integration adds an entity for climate with controls for preset ventilation modes and fan mode. It also has state for temperatures.
+
+### Sensor
+
+The integration adds entities for sensors with differend readings from the device. There is currently support for the following sensors:
+
+ - Outside air temperature
+ - Supply air temperature 
+ - Exhaust air temperature
+ - Extract air temperature
+ - Room temperature
+ - Fireplace ventilation remaining duration
+ - Rapid ventilation remaining duration
+ - Supply air fan control signal
+ - Supply air fan
+ - Exhaust air fan control signal
+ - Exhaust air fan
+ - Electric heater power
+ - Air filter operating time
+ - Heat exchanger efficiency
+ - Heat exchanger speed
+
 ### A note about shutting down the device
  
 Flexit recommends that the function to turn off the unit is not made accessible in the interface for an ordinary user. It will therefore be removed from the integration in the future.
